@@ -1,0 +1,17 @@
+alias gfp='git fetch & git pull'
+alias gs='git status'
+alias gco='git checkout'
+alias gc='git commit -m'
+
+alias cloudbuild='./gradlew clean build shadowJar dockerBuild'
+
+alias dc='docker-compose'
+
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
